@@ -2,7 +2,7 @@
 
 ==== PROGRAM KALKULATOR SUHU ====
 
-Kalkultor yang dapat mengkonversi suhu (Celcius, Fahrenhait, Reamur, Kelvin) ke satuan lain (Celcius, Fahrenhait, Reamur, Kelvin)
+Sebuah program kalkulator yang dapat mengkonversi suhu (Celcius, Fahrenhait, Reamur, Kelvin) ke satuan lain (Celcius, Fahrenhait, Reamur, Kelvin)
 
 Kelompok 2 GIS
 
