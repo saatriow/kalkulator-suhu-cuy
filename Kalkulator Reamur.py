@@ -1,4 +1,4 @@
-suhu= float(input("Masukkan Suhu ewexwnewi awal : "))
+suhu= float(input("Masukkan Suhu Awal yang akan di Konversi : "))
     pil2 = int(input("ubah ke mana ya inii : \n1. Celcius \n2. Fahrenhait \n3. Kelvin\n"))
     if (pil2==1):
         print (suhu, "Reamur = ", (5/4*suhu) ,"Celcius")
