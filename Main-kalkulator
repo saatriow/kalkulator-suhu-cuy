@@ -24,8 +24,8 @@ elif (pil == 2):
         print(suhu, "Fahrenhait = ", (5/9*(suhu-32) + 273) ,"Kelvin")
     else:
         print("Tidak valid")
-        suhu= float(input("Masukkan Suhu Awal Reamur yang akan di Konversi : "))
-        pil2 = int(input("ubah ke mana ya inii : \n1. Celcius \n2. Fahrenheit \n3. Kelvin\n"))
+    suhu= float(input("Masukkan Suhu Awal Reamur yang akan di Konversi : "))
+    pil2 = int(input("ubah ke mana ya inii : \n1. Celcius \n2. Fahrenheit \n3. Kelvin\n"))
     if (pil2==1):
         print (suhu, "Reamur = ", (5/4*suhu) ,"Celcius")
     elif(pil2==2):
@@ -34,3 +34,16 @@ elif (pil == 2):
         print(suhu, "Reamur = ", (5/4*suhu) + 273 ,"Kelvin")
     else:
         print("Silahkan coba ulang, data Tidak valid")
+ elif (pil==4):
+    suhu= float(input("Masukkan Suhu KKelvin awal : "))
+    pil2 = int(input("ubah ke : \n1. Celcius \n2. Fahrenhait \n3. reamur\n"))
+    if (pil2==1):
+        print (suhu, "Kelvin = ", suhu - 273 ,"Celcius")
+    elif(pil2==2):
+        pprint(suhu, "Kelvin = ", (9/5*(suhu-273)+32) ,"Fahhrenhait")
+    elif(pil2==3):
+        print(suhu, "kelvin = ", (4/5*(suhu-273)) ,"reamur")
+    else:
+        print("Tidakk valid")
+    else:
+        print("tidak valid")
