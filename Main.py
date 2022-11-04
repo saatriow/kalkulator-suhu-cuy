@@ -1,5 +1,5 @@
-print("==========KALKULATOR SUHU GIS 2==========")
-print("Pilih suhu yang ingin dirubah")
+print("========== KALKULATOR SUHU GIS 2 ==========")
+print("Pilih suhu yang ingin di konversikan")
 pil = int(input("1. Celcius \n2. Fahrenhait \n3. Reamur \n4. Kelvin \n"))
 if (pil == 1):
     suhu= float(input("Masukkan Suhu Celcius awal : "))
