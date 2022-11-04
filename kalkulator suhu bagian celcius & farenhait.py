@@ -1,4 +1,4 @@
-print("==========kalkulator suhu==========")
+print("==========KALKULATOR SUHU==========")
 print("Pilih suhu yang ingin dirubah")
 pil = int(input("1. Celcius \n2. Fahrenhait \n3. Reamur \n4. Kelvin \n"))
 if (pil == 1):
@@ -18,7 +18,7 @@ elif (pil == 2):
     if (pil2==1):
         print(suhu, "Fahrenhait = ", (5/9*(suhu-32)) ,"Celcius")
     elif(pil2==2):
-        print(suhu, "Fahrehait = ", (4/9*(suhu-32)) ,"Reamur")
+        print(suhu, "Fahrenhait = ", (4/9*(suhu-32)) ,"Reamur")
     elif(pil2==3):
         print(suhu, "Fahrenhait = ", (5/9*(suhu-32) + 273) ,"Kelvin")
     else:
