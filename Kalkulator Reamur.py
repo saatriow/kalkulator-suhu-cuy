@@ -7,4 +7,4 @@ suhu= float(input("Masukkan Suhu Awal Reamur yang akan di Konversi : "))
     elif(pil2==3):
         print(suhu, "Reamur = ", (5/4*suhu) + 273 ,"Kelvin")
     else:
-        print("Silah Tidak valid")
+        print("Silahkan coba ulang, data Tidak valid")
